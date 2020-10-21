@@ -1,0 +1,22 @@
+﻿body {
+    background-color:;
+}
+aside {
+    background-image:linear-gradient(to top right, #0E91CB, #1C9ED8, #51C2F5);
+}
+nav ul {
+    padding:13px;
+    background-color:black;
+}
+nav ul li {
+    display: inline-block;
+}
+nav a {
+    text-decoration:none;
+    /*display:inline;*/
+    padding:13px;
+    margin:7px;
+}
+nav a:hover, a:active {
+    background-color:orangered;
+}
