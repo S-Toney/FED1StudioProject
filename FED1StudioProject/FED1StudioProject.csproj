@@ -70,6 +70,7 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="css\custom.css" />
     <Content Include="images\a-r-t-paola-589990-unsplash.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -138,6 +139,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\" />
     <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
