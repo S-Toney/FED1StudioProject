@@ -1,0 +1,39 @@
+﻿/*remember fonts.google.com*/
+
+body {
+    background-color: cornsilk;
+    margin: 13px;
+}
+
+footer {
+    padding:13px;
+}
+
+h1, h2, h3 {
+    font-variant: small-caps;
+}
+
+.purple {
+    color: rebeccapurple;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#about {
+    background-color: cadetblue;
+    color: white;
+    opacity: 0.5;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.d-block {
+    display: block;
+}
+
+.mx-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
