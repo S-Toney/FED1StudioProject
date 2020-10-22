@@ -3,12 +3,15 @@
     background-color: cornsilk;
     /*margin: 13px;*/
     font-family: 'Josefin Sans', sans-serif;
+    margin:0;
+    padding:0;
 }
 /*Image for background*/
 main {
     background-image:url(../images/sara-kurfess-Ada1yXwrbXI-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
+    margin:0;
 }
 /*Sidebar CSS*/
 aside {
@@ -32,9 +35,12 @@ header {
     height:auto;
 }
 /*Navigation CSS*/
-nav ul {
-    padding:13px;
+nav {
+    margin:0;
     background-color:black;
+}
+nav ul {
+    padding:13px;   
 }
 nav ul li {
     display: inline-block;
