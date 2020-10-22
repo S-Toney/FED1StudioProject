@@ -3,7 +3,8 @@
     background-image:url(../images/sara-kurfess-Ada1yXwrbXI-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    margin: 13px;
+    margin: 0;
+    padding:0;
     font-family: 'Josefin Sans', sans-serif;
 }
 /*Sidebar CSS*/
@@ -79,6 +80,24 @@ h1, h2, h3 {
 
 .p-13 {
     padding:13px;
+}
+m-half {
+    margin:.5em;
+}
+m-1 {
+    margin:1em;
+}
+.m-2 {
+    margin:2em;
+}
+p-half {
+    padding:.5em;
+}
+p-1 {
+    padding:1em;
+}
+p-2 {
+    padding:2em;
 }
 /*Direction Properties*/
 .right {
