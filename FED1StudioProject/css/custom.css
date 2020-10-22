@@ -62,8 +62,21 @@ h1, h2, h3 {
     margin-right: 15px;
 }
 
+.my-15 {
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+
+.p-13 {
+    padding:13px;
+}
+
 .right {
     text-align:right;
+}
+
+.center {
+    text-align: center;
 }
 
 .mid {
