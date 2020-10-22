@@ -1,19 +1,34 @@
 ﻿body {
+    font-size:14px;
     background-color: cornsilk;
+    /*margin: 13px;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*Image for background*/
+main {
     background-image:url(../images/sara-kurfess-Ada1yXwrbXI-unsplash.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-    margin: 0;
-    padding:0;
-    font-family: 'Josefin Sans', sans-serif;
 }
 /*Sidebar CSS*/
 aside {
     background-image:linear-gradient(to top right, #0E91CB, #1C9ED8, #51C2F5);
 }
 /*Header CSS*/
+header {
+    background-color:black;
+    color:cadetblue;
+    margin:0;
+    font-variant:small-caps;
+    /*outside display*/
+    display:block;
+    /*inside display*/
+    display:flex;
+    align-items:center;
+    /*line-height:13px;*/
+}
 .logo {
-    width:1.5em;
+    width:45px;
     height:auto;
 }
 /*Navigation CSS*/
@@ -57,15 +72,24 @@ h1, h2, h3 {
 }
 
 #about {
-    background-color: cadetblue;
+    background-color:rgba(95, 158, 160, 0.5);
     color: white;
-    opacity: 0.5;
+    /*opacity: 0.7;*/
     font-size: 25px;
     padding: 15px;
 }
 /*Display Properties*/
 .d-block {
-    display: block;
+    display:block;
+}
+.d-inline {
+    display:inline;
+}
+.d-inline-block {
+    display:inline-block
+}
+.d-flex {
+    display:flex;
 }
 /*Margin and Padding*/
 .mx-15 {
@@ -78,26 +102,16 @@ h1, h2, h3 {
     margin-bottom: 15px;
 }
 
+.my-0 {
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.mt-0 {
+    margin-top:0;
+}
 .p-13 {
     padding:13px;
-}
-m-half {
-    margin:.5em;
-}
-m-1 {
-    margin:1em;
-}
-.m-2 {
-    margin:2em;
-}
-p-half {
-    padding:.5em;
-}
-p-1 {
-    padding:1em;
-}
-p-2 {
-    padding:2em;
 }
 /*Direction Properties*/
 .right {
@@ -111,4 +125,9 @@ p-2 {
 .mid {
     align-content:center;
     align-items:center;
+}
+/*Sizing CSS*/
+.fluid {
+    max-width:100%;
+    height:auto;
 }
