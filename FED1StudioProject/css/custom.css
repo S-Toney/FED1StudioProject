@@ -1,5 +1,8 @@
 ﻿body {
     background-color: cornsilk;
+    background-image:url(../images/sara-kurfess-Ada1yXwrbXI-unsplash.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     margin: 13px;
     font-family: 'Josefin Sans', sans-serif;
 }
