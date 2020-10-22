@@ -1,9 +1,17 @@
 ﻿body {
-    background-color:;
+    background-color: cornsilk;
+    margin: 13px;
 }
+/*Sidebar CSS*/
 aside {
     background-image:linear-gradient(to top right, #0E91CB, #1C9ED8, #51C2F5);
 }
+/*Header CSS*/
+.logo {
+    width:1.5em;
+    height:auto;
+}
+/*Navigation CSS*/
 nav ul {
     padding:13px;
     background-color:black;
@@ -16,23 +24,21 @@ nav a {
     /*display:inline;*/
     padding:13px;
     margin:7px;
+    color:white;
 }
 nav a:hover, a:active {
     background-color:orangered;
 }
-/*remember fonts.google.com*/
-
-body {
-    background-color: cornsilk;
-    margin: 13px;
+nav a:visited {
+    color:cornsilk;
 }
-
+/*Footer CSS*/
 footer {
     padding:13px;
     background-color:black;
     color:white;
 }
-
+/*Text Style*/
 h1, h2, h3 {
     font-variant: small-caps;
 }
@@ -52,11 +58,11 @@ h1, h2, h3 {
     font-size: 25px;
     padding: 15px;
 }
-
+/*Display Properties*/
 .d-block {
     display: block;
 }
-
+/*Margin and Padding*/
 .mx-15 {
     margin-left: 15px;
     margin-right: 15px;
@@ -70,7 +76,7 @@ h1, h2, h3 {
 .p-13 {
     padding:13px;
 }
-
+/*Direction Properties*/
 .right {
     text-align:right;
 }
