@@ -8,7 +8,7 @@
 }
 /*Image for background*/
 main {
-    background-image:url(../images/sara-kurfess-Ada1yXwrbXI-unsplash.jpg);
+    background-image:url(../images/libraryMultiLevel.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     margin:0;
@@ -16,6 +16,17 @@ main {
 /*Sidebar CSS*/
 aside {
     background-image:linear-gradient(to top right, #0E91CB, #1C9ED8, #51C2F5);
+}
+/*section CSS*/
+section {
+    background-color:rgba(10, 242, 126, .2);
+    margin:0 7px 0 7px;
+    font-weight:bold;
+    color:rgb(2, 44, 23);
+}
+/*Article CSS*/
+section article {
+    background-color:rgba(111, 231,247, .2);
 }
 /*Header CSS*/
 header {
@@ -67,6 +78,17 @@ footer {
 /*Text Style*/
 h1, h2, h3 {
     font-variant: small-caps;
+}
+
+.text-mid {
+    font-size:1.5em;}
+
+.text-big {
+    font-size:2em;
+}
+
+.text-bigger {
+    font-size:3em;
 }
 
 .purple {
@@ -132,8 +154,60 @@ h1, h2, h3 {
     align-content:center;
     align-items:center;
 }
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
 /*Sizing CSS*/
 .fluid {
     max-width:100%;
     height:auto;
+}
+.fluid-75 {
+    max-width: 75%;
+    height: auto;
+}
+.fluid-50 {
+    max-width: 50%;
+    height: auto;
+}
+.fluid-25 {
+    max-width: 25%;
+    height: auto;
+}
+/*Float Columns*/
+.sm-col-left {
+    max-width:24%;
+    float:left;
+    padding:.5em;
+}
+.sm-col-right {
+    max-width: 24%;
+    float: right;
+    padding: .5em;
+}
+.lg-col-left {
+    max-width: 74%;
+    float: left;
+    padding: .5em;
+}
+.lg-col-right {
+    max-width: 74%;
+    float: right;
+    padding: .5em;
+}
+.half-col-left {
+    max-width: 49%;
+    float: left;
+    padding: .5em;
+}
+.half-col-right {
+    max-width: 49%;
+    float: right;
+    padding: .5em;
+}
+.clear {
+    clear:both;
 }
