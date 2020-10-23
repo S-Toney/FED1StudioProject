@@ -57,49 +57,65 @@ header {
 /*Navigation CSS*/
 nav {
     margin: 0;
-    background-color: #181818;
+    background-color: #121212;
 }
 
     nav ul {
         padding: 13px;
-        margin:0;
+        margin: 0;
     }
 
         nav ul li {
             display: inline-block;
         }
 
-    nav a {
-        text-decoration: none;
-        /*display:inline;*/
-        padding: 13px;
-        margin: 7px;
-        color: #f2f2f2;
-    }
+            nav ul li a {
+                text-decoration: none;
+                /*display:inline;*/
+                padding: 13px;
+                margin: 7px;
+                color: #f2f2f2;
+            }
 
-        nav a:hover, a:active a:visited{
+                nav ul li a:hover, a:active {
+                    border-radius: 20px 0 20px 0;
+                    background-color: #d97979;
+                    color: #121212;
+                    font-weight: bold;
+                }
+
+/*nav a:visited {
+            color: #96c6d9;
             border-radius: 20px 0 20px 0;
             background-color: #d97979;
-            color: #121212;
             font-weight: bold;
-        }
-
-        /*nav a:visited {
-            color: #96c6d9;
         }*/
+
 /*Footer CSS*/
 footer {
     padding: 13px;
     background-color: #121212;
     color: #f2f2f2;
 }
+
+    footer a {
+        color: #f2f2f2;
+    }
+
+        footer a:hover, a:active, a:visited {
+            /*border-radius: 20px 0 20px 0;*/
+            background-color: #d97979;
+            color: #121212;
+            /*font-weight: bold;*/
+        }
 /*Text Style*/
 h1, h2, h3 {
     font-variant: small-caps;
     text-shadow: 2px 2px #d97979;
 }
-nav h1 {
-    text-shadow: 2px 2px 7px #d97979 ;
+
+header h1 {
+    text-shadow: 2px 2px 7px #f2f2f2;
 }
 
 .text-mid {
@@ -128,13 +144,14 @@ nav h1 {
     font-size: 25px;
     padding: 15px;
 }
+
 #why {
     background: rgba(242,242,242,.5);
     font-size: 25px;
     padding: 15px;
     border-radius: 20px 0 20px 0;
-    color:#121212;
-    margin-top:.5em;
+    color: #121212;
+    margin-top: .5em;
 }
 /*Display Properties*/
 .d-block {
@@ -264,19 +281,21 @@ nav h1 {
     background-color: rgba(77, 111, 117, .3);
     display: inline-block;
     box-shadow: 13px 13px 7px 0px rgba(217,121,121,1);
-    margin:1em;
+    margin: 1em;
 }
 
-.card p {
-    padding:.5em;
-}
+    .card p {
+        padding: .5em;
+    }
 /*TO FIX*/
 div .card h3 {
-    box-shadow:none!important;
+    box-shadow: none!important;
 }
+
 a .card {
-    text-decoration:none;
+    text-decoration: none;
 }
+
 .card:hover {
-    border:2px solid #f2f2f2;
+    border: 2px solid #f2f2f2;
 }
