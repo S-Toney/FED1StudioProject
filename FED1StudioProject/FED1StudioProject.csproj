@@ -73,6 +73,10 @@
     <Content Include="images\a-r-t-paola-589990-unsplash.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\accessabilityOfInfo.jpg" />
+    <Content Include="images\android-chrome-192x192.png" />
+    <Content Include="images\android-chrome-512x512.png" />
+    <Content Include="images\apple-touch-icon.png" />
     <Content Include="images\ben-krygsman-745458-unsplash.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -91,9 +95,18 @@
     <Content Include="images\computer_icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\copyright %281%29.jpg" />
+    <Content Include="images\copyright.jpg" />
     <Content Include="images\CSS_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\digintaDesign.jpg" />
+    <Content Include="images\digitalMedia.jpg" />
+    <Content Include="images\favicon-16x16.png" />
+    <Content Include="images\favicon-32x32.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\favicon.ico" />
     <Content Include="images\goran-ivos-246271-unsplash.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -122,6 +135,9 @@
     <Content Include="images\pankaj-patel-561360-unsplash.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\principals.jpg" />
+    <Content Include="images\printDesign %281%29.jpg" />
+    <Content Include="images\printDesign.jpg" />
     <Content Include="images\Sandbox-48.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
