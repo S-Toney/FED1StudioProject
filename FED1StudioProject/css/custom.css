@@ -50,6 +50,11 @@ header {
     /*border-radius: 20px 0 20px 0;*/
 }
 
+    header h1 {
+        text-shadow: -1px -1px 0 #d97979, 1px -1px 0 #d97979, -1px 1px 0 #d97979, 1px 1px 0 #d97979;
+    }
+/*This was supposed to create an outline the color of the hover effect but it's not working*/
+
 .logo {
     width: 45px;
     height: auto;
@@ -84,25 +89,33 @@ nav {
                     font-weight: bold;
                 }
 
-/*nav a:visited {
-            color: #96c6d9;
-            border-radius: 20px 0 20px 0;
-            background-color: #d97979;
-            font-weight: bold;
-        }*/
+    nav a:visited {
+        color: #96c6d9;
+        border-radius: 20px 0 20px 0;
+        background-color: #d97979;
+        font-weight: bold;
+    }
+
+    nav a:active {
+        color: #96c6d9;
+        border-radius: 20px 0 20px 0;
+        border: 2px solid #d97979;
+        font-weight: bold;
+    }
 
 /*Footer CSS*/
 footer {
     padding: 13px;
     background-color: #121212;
     color: #f2f2f2;
+    align-content:center;
 }
 
     footer a {
         color: #f2f2f2;
     }
 
-        footer a:hover, a:active, a:visited {
+        footer a:hover, a:active/*, a:visited*/ {
             /*border-radius: 20px 0 20px 0;*/
             background-color: #d97979;
             color: #121212;
@@ -111,7 +124,7 @@ footer {
 /*Text Style*/
 h1, h2, h3 {
     font-variant: small-caps;
-    text-shadow: 2px 2px #d97979;
+    /*text-shadow: 2px 2px #d97979;*/
 }
 
 header h1 {
@@ -139,18 +152,21 @@ header h1 {
 }
 /*TO DO Fix this background gradient to match the new palette*/
 #about {
-    background: rgba(77,111,117,.5);
+    background: rgba(77,111,117,1);
     /*opacity: 0.7;*/
-    font-size: 25px;
-    padding: 15px;
+    font-size: .7em;
+    padding: 1em;
+}
+/*#about command section article {
+    min-width:50px;*/
 }
 
 #why {
     background: rgba(242,242,242,.5);
-    font-size: 25px;
-    padding: 15px;
+    font-size: 1em;
+    padding: 1em;
     border-radius: 20px 0 20px 0;
-    color: #121212;
+    color: #4d6f7f;
     margin-top: .5em;
 }
 /*Display Properties*/
@@ -214,6 +230,10 @@ header h1 {
     float: right;
 }
 /*Sizing CSS*/
+.min-img-35 {
+    min-width: 35px;
+}
+
 .fluid {
     max-width: 100%;
     height: auto;
@@ -279,8 +299,8 @@ header h1 {
     width: 27%;
     border-radius: 20px 0px 20px 0px;
     background-color: rgba(77, 111, 117, .3);
+    background-color: #96c6d9;
     display: inline-block;
-    box-shadow: 13px 13px 7px 0px rgba(217,121,121,1);
     margin: 1em;
 }
 
@@ -289,7 +309,7 @@ header h1 {
     }
 /*TO FIX*/
 div .card h3 {
-    box-shadow: none!important;
+    box-shadow: none !important;
 }
 
 a .card {
@@ -298,4 +318,33 @@ a .card {
 
 .card:hover {
     border: 2px solid #f2f2f2;
+    box-shadow: 13px 13px 7px 0px rgba(217,121,121,1);
+}
+/*Class Tables CSS*/
+.classes {
+    margin: auto;
+    margin-bottom: 1em;
+    background-color: rgba(242,242,242,.7);
+}
+
+    .classes:hover {
+        border: 7px solid #f2f2f2;
+        box-shadow: 13px 13px 7px 0px rgba(217,121,121,1);
+        font-size: 2em;
+    }
+
+th, td {
+    padding: .5em;
+}
+
+tr, th, td {
+    border: none;
+    text-align: center;
+}
+/*tbody tr:nth-child(even) {
+    background-color: azure;
+}*/
+
+tbody tr:nth-child(odd) {
+    background-color: #96c6d9;
 }
