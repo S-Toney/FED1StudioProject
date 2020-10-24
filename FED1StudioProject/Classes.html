@@ -30,64 +30,85 @@
     <main>
         <div class="mt-0 center">
             <br />
-            <h1 class="text-bigger"><strong>Classes</strong></h1>
+            <h1 class="text-bigger blue-shadow"><strong>Classes</strong></h1>
             <h3>Continuing Education for the Professional Publisher</h3>
         </div>
         <br /><hr /><br />
+        <!-- Class Subject Cards -->
         <div class="mx-15 my-15 d-flex d-block">
-            <div class="card">
+            <a class="card" href="#Copyright">
                 <img src="images/copyright (1).jpg" class="fluid img-half-corner" alt="typewriter" />
                 <h3 class="center">Copyright, Censorship, and Plagiarism</h3>
                 <p>
-                   Learn about the "work for hire" doctrine's meaning for defining authors and owners. Understand the difference between Plagiarism and Copyright infringement as well as the potential ramifications of both. Dive into how schools and courts subvert student's first ammendment rights and what you, as a publisher, should know about censorship.'
+                    Learn about the "work for hire" doctrine's meaning for defining authors and owners. Understand the difference between Plagiarism and Copyright infringement as well as the potential ramifications of both. Dive into how schools and courts subvert student's first ammendment rights and what you, as a publisher, should know about censorship.'
                 </p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card" href="#PubDigital">
                 <img src="images/digitalMedia.jpg" class="fluid img-half-corner" alt="E-reader" />
                 <h3 class="center">Publishing in Digital Media</h3>
                 <p>
                     A definition of digital media and digital media publishing. We will also reiview the basic concepts of digital media and discuss multiple platforms that exist for the publication of digital media. We will cover a wide list from the most well known and essential to the obscure and frivolous and discuss the important aspects of each. Learn inherent difficulties associated with digital publishing and how handle them.
                 </p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card" href="#Print">
                 <img src="images/printDesign (1).jpg" class="fluid img-half-corner" alt="color shades" />
                 <h3 class="center">Editing & Design in Print</h3>
                 <p>
                     Expect coverage of tools available to help you design the layouts and color scheems for a beautiful piece of print. Graphic designs specific to print: We will cover a variety of layouts that will make your publication stand out. Professional editors are a necessity if you want professional qualtiy. We'll discuss what to look for to ensure you get the editor you need.
                 </p>
-            </div>
+            </a>
         </div>
         <div class="mx-15 my-15 d-flex d-block">
-            <div class="card">
+            <a class="card" href="#Business">
                 <img src="images/principals.jpg" class="fluid img-half-corner" alt="typewriter" />
                 <h3 class="center">Business Principas of Publishing</h3>
                 <p>
                     We will discuss the best practice guidelines of ethics in publishing.Discuss the increasing ease of data manipulation and the difficulty in tracing accurate origins and copies.Decades of experience in print publishing likely did not prepare you for the world of digital publishing. Join us and build your foundation.
 
                 </p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card" href="#DigDesign">
                 <img src="images/digintaDesign.jpg" class="fluid img-half-corner" alt="E-reader" />
                 <h3 class="center">Editing & Digital Design</h3>
                 <p>
-                   Cultivate your abilities to shape a story by increasing your skills in digital film editing. Learn how to edit on the go and stay productive even when you are forced to travel without your preferred software.Learn the distinctions of each as well as the essentials that intertwine them.
+                    Cultivate your abilities to shape a story by increasing your skills in digital film editing. Learn how to edit on the go and stay productive even when you are forced to travel without your preferred software.Learn the distinctions of each as well as the essentials that intertwine them.
                 </p>
-            </div>
-            <div class="card">
+            </a>
+            <a class="card" href="#Access">
                 <img src="images/accessabilityOfInfo.jpg" class="fluid img-half-corner" alt="color shades" />
                 <h3 class="center">Accessability of Information</h3>
                 <p>
-                   Learn our process for ensuring that all users and learners are easily able to consume our content. Persons with disabilities have different needs for their communication technologies. Let's learn about them. This is an interactive lab that will teach you the basics of creating accessible web content as defined by the United Nations Convention on the Rights of Persons with Disabilities (UN CRPD).
+                    Learn our process for ensuring that all users and learners are easily able to consume our content. Persons with disabilities have different needs for their communication technologies. Let's learn about them. This is an interactive lab that will teach you the basics of creating accessible web content as defined by the United Nations Convention on the Rights of Persons with Disabilities (UN CRPD).
                 </p>
-            </div>
+            </a>
         </div>
         <br /><hr /><br />
+        <h2 class="center blue-shadow">All classes are one hour and begin at Noon.</h2>
         <!-- Tables for Class Lists -->
-        <table class="classes">
+        <table class="classes" id="Copyright">
             <thead>
+                <!-- Subject -->
                 <tr>
                     <th colspan="4">Copyright, Censorship, and Plagiarism</th>
                 </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">A Look at Copyright: Authors and Owners</td>
+                    <td>Dorris Wilson</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Plagiarism and Copyright Infringement</td>
+                    <td>P. Roth</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Free Expression and Censorship</td>
+                    <td>P. Roth</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -95,6 +116,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 7
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -139,12 +167,32 @@
                     <td>@scandal</td>
                 </tr>
             </tbody>
+
         </table>
-        <table class="classes">
+        <table class="classes" id="PubDigital">
             <thead>
+                <!-- Subject -->
                 <tr>
-                    <th colspan="4">Publishing In Digital Media</th>
+                    <th colspan="4">Publishing in Digital Media</th>
                 </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">What is Digital Media?</td>
+                    <td>Frances Nugent</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Think Like a Digital Publisher</td>
+                    <td>Catherine Clark</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Definition and Relevance of Digital Publishing Platforms</td>
+                    <td>Frances Nugent</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -152,6 +200,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 4
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -179,11 +234,30 @@
                 </tr>
             </tbody>
         </table>
-        <table class="classes">
+        <table class="classes" id="Print">
             <thead>
+                <!-- Subject -->
                 <tr>
                     <th colspan="4">Editing & Design in Print</th>
-                </tr> 
+                </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">Digital Tools Don't Always Mean Digital Publishing</td>
+                    <td>Frances Nugent</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Editing for Print</td>
+                    <td>Catherine Clark</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Print Designs and Layouts</td>
+                    <td>Frances Nugent</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -191,6 +265,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 5
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -221,14 +302,33 @@
                     <td>Danielle</td>
                     <td>Steel</td>
                     <td>@romance</td>
-                </tr>              
+                </tr>
             </tbody>
         </table>
-        <table class="classes">
+        <table class="classes" id="Business">
             <thead>
+                <!-- Subject -->
                 <tr>
                     <th colspan="4">Business Principals of Publishing</th>
                 </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">Ethics and Publishing</td>
+                    <td>Jon Griffin</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Promoting Integrity in Research and Publication</td>
+                    <td>Jon Griffin</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Principals of Successful Publishing in a Digital World</td>
+                    <td>Martha Flowers</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -236,6 +336,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 7
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -281,11 +388,30 @@
                 </tr>
             </tbody>
         </table>
-        <table class="classes">
+        <table class="classes" id="DigDesign">
             <thead>
+                <!-- Subject -->
                 <tr>
-                    <th colspan="4">Editing & Digital Design</th>
+                    <th colspan="4">Editig in Digital Design</th>
                 </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">Video Editing and Digital Design</td>
+                    <td>Garret Strother</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Graphic Design and Online Editors</td>
+                    <td>Garret Strother</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Why Can't We Seperate Video Editing and Graphic Design</td>
+                    <td>Garret Strother</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -293,6 +419,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 2
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>
@@ -308,11 +441,30 @@
                 </tr>
             </tbody>
         </table>
-        <table class="classes">
+        <table class="classes" id="Access">
             <thead>
+                <!-- Subject -->
                 <tr>
                     <th colspan="4">Accessability of Information</th>
                 </tr>
+                <!-- Classes -->
+                <tr class="border-tb">
+                    <td rowspan="3" class="border-r"><strong>Classes</strong><br /><br />Max 12</td>
+                    <td class="border-l">Introduction to Web Accessability</td>
+                    <td>Lucille Tipton</td>
+                    <td>Beginner<br />Mon & Tue</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Communication Technology and Accessible Information</td>
+                    <td>Ruth Marr</td>
+                    <td>Intermediate<br />Wed & Thu</td>
+                </tr>
+                <tr class="border-tb">
+                    <td class="border-l">Are You Creating Accessable Content?</td>
+                    <td>Lucille Tipton</td>
+                    <td>Advanced<br />Fri & Sat</td>
+                </tr>
+                <!-- Participants -->
                 <tr>
                     <th>#</th>
                     <th>First Name</th>
@@ -320,6 +472,13 @@
                     <th>User Name</th>
                 </tr>
             </thead>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        Participating Students: 4
+                    </th>
+                </tr>
+            </tfoot>
             <tbody>
                 <tr>
                     <td>1</td>

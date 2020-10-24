@@ -108,14 +108,14 @@ footer {
     padding: 13px;
     background-color: #121212;
     color: #f2f2f2;
-    align-content:center;
+    align-content: center;
 }
 
     footer a {
         color: #f2f2f2;
     }
 
-        footer a:hover, a:active/*, a:visited*/ {
+        footer a:hover, a:active /*, a:visited*/ {
             /*border-radius: 20px 0 20px 0;*/
             background-color: #d97979;
             color: #121212;
@@ -149,6 +149,9 @@ header h1 {
 
 .bold {
     font-weight: bold;
+}
+.blue-shadow {
+    text-shadow: 2px 2px #96c6d9;
 }
 /*TO DO Fix this background gradient to match the new palette*/
 #about {
@@ -307,13 +310,10 @@ header h1 {
     .card p {
         padding: .5em;
     }
-/*TO FIX*/
-div .card h3 {
-    box-shadow: none !important;
-}
 
-a .card {
+a.card {
     text-decoration: none;
+    color: #121212;
 }
 
 .card:hover {
@@ -325,13 +325,22 @@ a .card {
     margin: auto;
     margin-bottom: 1em;
     background-color: rgba(242,242,242,.7);
+    border-radius: 20px 0px;
 }
 
     .classes:hover {
         border: 7px solid #f2f2f2;
+        border-radius: 20px 0px;
         box-shadow: 13px 13px 7px 0px rgba(217,121,121,1);
-        font-size: 2em;
+        font-size: 1.3em;
     }
+
+table {
+    border-collapse: collapse; /*Border Radius will not apply to tables when border collapse is collapse*/
+    max-width: 80%;
+    margin: auto;
+    /*border-radius: 20px 0px;*/ /*This only applied to table cells not head or foot*/
+}
 
 th, td {
     padding: .5em;
@@ -341,15 +350,34 @@ tr, th, td {
     border: none;
     text-align: center;
 }
-/*tbody tr:nth-child(even) {
-    background-color: azure;
-}*/
-
-tbody tr:nth-child(odd) {
-    background-color: #96c6d9;
+thead tr:nth-child(even) {
+    background-color: rgba(77, 111, 117, .1);
 }
 
-/*Table CSS*/
-table {
-    border-collapse:collapse;
+tbody tr:nth-child(odd) {
+    background-color:rgba(150, 198, 217, .5);
+}
+
+thead, tfoot {
+    background-color:rgb(242, 242, 242);
+}
+
+.classes thead {
+    border-radius:0 20px 0 0;
+}
+
+.classes tfoot {
+    border-radius:0 0 20px 0;
+}
+.border-tb {
+    border-top: 1px solid #121212;
+    border-bottom: 1px solid #121212;
+}
+
+.border-l {
+    border-left: 1px solid #121212;
+}
+
+.border-r {
+    border-right: 1px solid #121212;
 }
