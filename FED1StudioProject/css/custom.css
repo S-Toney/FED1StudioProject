@@ -103,6 +103,15 @@ nav {
         font-weight: bold;
     }
 
+.active {
+    color: #96c6d9;
+    border-radius: 20px 0 20px 0;
+    border:3px solid #d97979;
+    font-weight: bold;
+    padding:11px 3px;
+    margin:7px;
+}
+
 /*Footer CSS*/
 footer {
     padding: 13px;
