@@ -140,6 +140,10 @@ header h1 {
     text-shadow: 2px 2px 7px #f2f2f2;
 }
 
+.text-sm {
+    font-size: .7em;
+}
+
 .text-mid {
     font-size: 1.5em;
 }
@@ -166,7 +170,7 @@ header h1 {
 #about {
     background: rgba(77,111,117,1);
     /*opacity: 0.7;*/
-    font-size: .7em;
+    font-size: 1em;
     padding: 1em;
 }
 /*#about command section article {
@@ -178,7 +182,7 @@ header h1 {
     font-size: 1em;
     padding: 1em;
     border-radius: 20px 0 20px 0;
-    color: #4d6f7f;
+    color: #4d6f75;
     margin-top: .5em;
 }
 /*Display Properties*/
@@ -242,8 +246,8 @@ header h1 {
     float: right;
 }
 /*Sizing CSS*/
-.min-img-35 {
-    min-width: 35px;
+.min-img-85 {
+    min-width: 85%;
 }
 
 .fluid {
@@ -390,3 +394,4 @@ thead, tfoot {
 .border-r {
     border-right: 1px solid #121212;
 }
+
