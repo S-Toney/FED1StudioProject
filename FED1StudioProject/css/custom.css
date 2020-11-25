@@ -218,7 +218,7 @@ header h1 {
 
 /*.leadership {
     column-count: 3;
-    /*column-width: 33%;*/
+    /*column-width: 33%;
 }*/
 
 /*Display Properties*/
@@ -347,7 +347,14 @@ header h1 {
 }
 
 /*Cards*/
-
+.container{
+    display: grid /*| inline-grid*/;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows: 100px, 100px;
+}
+section .container {
+    background-color: transparent;
+}
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
