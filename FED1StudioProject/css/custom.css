@@ -1,11 +1,16 @@
 ﻿body {
-    font-size: 14px;
+    font-size: 16px;
     background-color: #f2f2f2;
     /*margin: 13px;*/
     font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
+
+hr {
+    margin: 2em;
+}
+
 /*Image for background*/
 main {
     background-image: url(../images/libraryMultiLevel.jpg);
@@ -13,10 +18,24 @@ main {
     background-size: cover;
     margin: 0;
 }
+aside {
+    height: 100%;
+    border-left: 2px solid black;
+}
 /*Image Shape CSS*/
 .img-half-corner {
     border-radius: 20px 0 20px 0;
 }
+
+/* Image Margin */
+.img-mr2 {
+    margin-left: 2em;
+}
+
+.img-ml2 {
+    margin-right: 2em;
+}
+
 /*Sidebar CSS*/
 aside {
     background: linear-gradient(310deg, rgba(150,198,217,.5) 0%, rgba(242,242,242,.5) 41%, rgba(235,208,208,.5) 72%, rgba(217,121,121,.5) 100%);
@@ -24,16 +43,18 @@ aside {
 }
 /*section CSS*/
 section {
-    background-color: rgba(77, 111, 117, .2);
+    background-color: rgba(77, 111, 117, .3);
     margin: 0 7px 0 7px;
     font-weight: bold;
-    color: rgb(242, 242, 242);
+    /*color: rgb(242, 242, 242);*/
     border-radius: 20px 0 20px 0;
+    padding: 2em;
 }
     /*Article CSS*/
     section article {
         background-color: rgba(150, 198, 217, .2);
         border-radius: 20px 0 20px 0;
+        color: rgb(242, 242, 242);
     }
 /*Header CSS*/
 header {
@@ -166,6 +187,9 @@ header h1 {
 .blue-shadow {
     text-shadow: 2px 2px #96c6d9;
 }
+.black-shadow {
+    text-shadow: 2px 2px #121212;
+}
 /*TO DO Fix this background gradient to match the new palette*/
 #about {
     background: rgba(77,111,117,1);
@@ -177,14 +201,26 @@ header h1 {
     min-width:50px;*/
 }
 
-#why {
-    background: rgba(242,242,242,.5);
+.why {
+    /*background: rgba(242,242,242,.5);*/
     font-size: 1em;
     padding: 1em;
-    border-radius: 20px 0 20px 0;
-    color: #4d6f75;
+    /*border-radius: 20px 0 20px 0;*/
+    color: #121212;
     margin-top: .5em;
 }
+
+.dept {
+    height: 100%;
+    background-color: rgba(242, 242, 242, .8);
+    border-left: 1px solid #121212;
+}
+
+/*.leadership {
+    column-count: 3;
+    /*column-width: 33%;*/
+}*/
+
 /*Display Properties*/
 .d-block {
     display: block;
@@ -247,7 +283,7 @@ header h1 {
 }
 /*Sizing CSS*/
 .min-img-85 {
-    min-width: 85%;
+    min-width: 190px;
 }
 
 .fluid {
@@ -311,6 +347,12 @@ header h1 {
 }
 
 /*Cards*/
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .card {
     width: 27%;
     border-radius: 20px 0px 20px 0px;
@@ -402,8 +444,8 @@ thead, tfoot {
     border-radius: 20px 0 20px 0;
     width: 50%;
     font-family: 'Josefin Sans', sans-serif;
-    border-width: 2px;
-    border-style: inset;
+    border-width: 1px;
+    border-style: ridge;
     border-image: initial;
 }
     .form-control:hover {

@@ -95,7 +95,6 @@
     <Content Include="images\computer_icon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\copyright %281%29.jpg" />
     <Content Include="images\copyright.jpg" />
     <Content Include="images\CSS_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
