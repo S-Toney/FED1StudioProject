@@ -16,8 +16,10 @@ main {
     background-image: url(../images/libraryMultiLevel.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0;
+    margin-top: 0;
+    padding: 13px;
 }
+
 aside {
     height: 100%;
     border-left: 2px solid black;
@@ -43,7 +45,7 @@ aside {
 }
 /*section CSS*/
 section {
-    background-color: rgba(77, 111, 117, .3);
+    background-color: rgba(77, 111, 117, .4);
     margin: 0 7px 0 7px;
     font-weight: bold;
     /*color: rgb(242, 242, 242);*/
@@ -127,10 +129,10 @@ nav {
 .active {
     color: #96c6d9;
     border-radius: 20px 0 20px 0;
-    border:3px solid #d97979;
+    border: 3px solid #d97979;
     font-weight: bold;
-    padding:11px 3px;
-    margin:7px;
+    padding: 11px 3px;
+    margin: 7px;
 }
 
 /*Footer CSS*/
@@ -184,26 +186,29 @@ header h1 {
 .bold {
     font-weight: bold;
 }
+
 .blue-shadow {
     text-shadow: 2px 2px #96c6d9;
 }
+
 .black-shadow {
     text-shadow: 2px 2px #121212;
 }
-/*TO DO Fix this background gradient to match the new palette*/
+/*TODO Fix this background gradient to match the new palette*/
 #about {
     background: rgba(77,111,117,1);
     /*opacity: 0.7;*/
     font-size: 1em;
     padding: 1em;
 }
-/*#about command section article {
-    min-width:50px;*/
+
+.aboutUs {
+    margin: 15px;
 }
 
 .why {
     /*background: rgba(242,242,242,.5);*/
-    font-size: 1em;
+    font-size: 1.5em;
     padding: 1em;
     /*border-radius: 20px 0 20px 0;*/
     color: #121212;
@@ -355,31 +360,37 @@ header h1 {
 }
 
 /*Cards*/
-.container{
-    display: grid /*| inline-grid*/;
-    grid-template-columns: 33%, 33%, 33%;
-    grid-template-rows: 100px, 100px;
-}
-section .container {
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
     background-color: transparent;
-}
-.mx-auto {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .card {
-    width: 27%;
-    border-radius: 20px 0px 20px 0px;
-    background-color: rgba(77, 111, 117, .3);
+    box-sizing: border-box;
+    width: calc((100%/3) - 2em);
+    border-radius: 20px 0 20px;
     background-color: #96c6d9;
-    display: inline-block;
     margin: 1em;
+    text-decoration: none;
+    color: #121212;
 }
 
-    .card p {
-        padding: .5em;
+    .card:hover {
+        border: 2px solid #f2f2f2;
+        box-shadow: 13px 13px 7px 0px rgba(217, 121, 121, 1);
     }
+
+.card-heading {
+    line-height: 2em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card p {
+    padding: .7em;
+}
 
 a.card {
     text-decoration: none;
@@ -420,25 +431,27 @@ tr, th, td {
     border: none;
     text-align: center;
 }
+
 thead tr:nth-child(even) {
     background-color: rgba(77, 111, 117, .1);
 }
 
 tbody tr:nth-child(odd) {
-    background-color:rgba(150, 198, 217, .5);
+    background-color: rgba(150, 198, 217, .5);
 }
 
 thead, tfoot {
-    background-color:rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
 }
 
 .classes thead {
-    border-radius:0 20px 0 0;
+    border-radius: 0 20px 0 0;
 }
 
 .classes tfoot {
-    border-radius:0 0 20px 0;
+    border-radius: 0 0 20px 0;
 }
+
 .border-tb {
     border-top: 1px solid #121212;
     border-bottom: 1px solid #121212;
@@ -463,6 +476,7 @@ thead, tfoot {
     border-style: ridge;
     border-image: initial;
 }
+
     .form-control:hover {
         background-color: #96c6d9;
         border: 2px solid #f2f2f2;
@@ -480,6 +494,7 @@ thead, tfoot {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
 }
+
     .form-button:hover {
         background-color: #96c6d9;
         border: 2px solid #f2f2f2;
@@ -492,10 +507,10 @@ thead, tfoot {
     padding: 1em;
     max-width: 60%;
     margin: auto;
+}
 
-}
-#contactInfo a{
-    text-decoration: none;
-    color: #f2f2f2;
-    font-size: 1.3em;
-}
+    #contactInfo a {
+        text-decoration: none;
+        color: #f2f2f2;
+        font-size: 1.3em;
+    }
