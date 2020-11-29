@@ -269,9 +269,17 @@ header h1 {
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 .mid {
     align-content: center;
     align-items: center;
+}
+
+.m-a {
+    margin: auto;
 }
 
 .float-left {
